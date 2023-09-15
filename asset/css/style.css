@@ -1,0 +1,316 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Geologica:wght@100;200;300&display=swap");
+
+/* Variables */
+:root {
+  --primary-green: #c9fa6ecf;
+  --primary-e-blue: #000000;
+  --primary-e-blue-btn: #4f38e8;
+  --priamry-font: #a6ff00f8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* color: #000;  */
+}
+
+html {
+  color: var(--primary-green);
+  font-family: "Geologica", sans-serif;
+}
+
+header {
+  background: var(--priamry-font);
+  color: #fff;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header div span {
+  font-family: "Caveat", cursive;
+  font-size: 80px;
+}
+
+header div span > a {
+  color: var(--primary-e-blue);
+  text-decoration: none;
+  /* color: rgb(250, 235, 215); */
+  letter-spacing: 2px;
+}
+
+header div span a:hover {
+  color: #fff;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 5px;
+}
+
+ul > li {
+  list-style: none;
+}
+
+header div > ul > li > a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+header div > ul > li > a:hover {
+  color: #fff;
+}
+
+header > div > ul > li > a {
+  text-decoration: none;
+}
+
+header a {
+  padding: 20px;
+}
+
+/* Header Button */
+header button {
+  font-weight: 700;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid var(--primary-e-blue);
+  color: var(--primary-e-blue);
+}
+
+header button:hover {
+  cursor: pointer;
+  background-color: var(--primary-e-blue);
+  color: var(--primary-green);
+}
+
+/* Body section */
+
+/* My name  */
+.my-name__title {
+  font-family: "Caveat", cursive;
+  font-size: 90px;
+  color: var(--priamry-font);
+  font-weight: 900;
+  padding: 5px;
+}
+.my-name__title:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Hero Section Main */
+section.hero-main {
+  background-color: #000;
+  color: var(--priamry-font);
+  display: flex;
+  justify-content: space-around;
+  gap: 40px;
+  align-items: center;
+  padding: 20px 140px 0 140px;
+}
+
+div.hero-main__img {
+  border-color: 1px solid #000000;
+  margin: 0;
+  object-fit: cover;
+}
+
+/*  Social media section*/
+
+header > section > div > ul > li > a > i {
+  text-decoration: none;
+  background: #000;
+}
+
+header > section > ul > li > a > i {
+  color: #fff;
+  font-size: 18px;
+}
+
+i {
+  background-color: #000;
+  /* display: inline; */
+}
+header > section a {
+  padding: 20px;
+  color: #ffffff;
+}
+
+/* Social Media */
+div.hero-main__socialmedia Ul {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+}
+
+div.hero-main__socialmedia Ul > li > a {
+  padding: 10px;
+}
+/* Social Media */
+i.fa-brands {
+  color: #4d4d4d;
+  border-color: #000;
+}
+
+i.fa-linkedin:hover {
+  color: #0a66c2;
+}
+
+i.fa-github:hover {
+  color: #fff;
+}
+
+i.fa-instagram:hover {
+  color: #d62976;
+}
+
+/* Main Button */
+.btn {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 650;
+}
+
+.btn.btn__hm {
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: var(--primary-e-blue-btn);
+  color: #fff;
+}
+
+.btn.btn__hm:hover {
+  color: var(--primary-e-blue-btn);
+  background-color: #fff;
+}
+
+.btn.btn__km {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: 2px solid var(--primary-e-blue);
+  color: var(--primary-e-blue);
+}
+
+.btn.btn__km:hover {
+  cursor: pointer;
+  background-color: var(--primary-e-blue);
+  color: var(--primary-green);
+  border: 2px solid;
+  opacity: 1;
+}
+
+/* Skill */
+div h1 {
+  text-align: center;
+  background: var(--primary-green);
+  color: #000;
+  text-decoration: underline;
+  padding: 8px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+div.skill {
+  background: var(--primary-green);
+  color: #000;
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill ol li {
+  display: inline-block;
+  gap: 25px;
+}
+
+div.skill ol li img {
+  margin: 15px;
+  padding: 10px;
+  background: var(--priamry-font);
+  box-shadow: 1px 1px 15px 1px #000;
+  object-fit: contain;
+  width: 120px;
+  height: 120px;
+}
+
+/* Center Hero */
+.center-hero {
+  background-color: var(--primary-green);
+  color: #0d0d0d;
+  padding: 20px;
+}
+
+/* center-hero__img */
+.center-hero__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.center-hero__img img {
+  background: #000;
+  border-radius: 100%;
+  box-shadow: 1px 1px 30px 20px #0a66c2;
+  padding: 4px;
+}
+
+div.center-hero__exp {
+  padding-left: 60px;
+}
+
+section.center-hero h1 {
+  text-align: center;
+  padding: 25px;
+  /* margin: 10px; */
+}
+
+div.center-hero__exp > ul li {
+  list-style: none;
+  background: #ff0000;
+  padding: 10px;
+  border-radius: 100px;
+  text-align: center;
+  margin: 20px;
+  font-weight: 600;
+}
+
+div.center-hero__exp > ul li > a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+div.center-hero__exp > ul li a:hover {
+  color: #000000;
+}
+
+/* footer */
+
+div.contact {
+  background: var(--primary-e-blue);
+}
+div.contact h2,
+label {
+  color: #fff;
+  text-align: center;
+}
+
+form {
+  width: 100%;
+  align-items: center;
+  padding: 5px;
+}
+
+form > div > input {
+  padding: 3px;
+  width: 20%;
+  align-items: center;
+}
+
+form.contatct h2 {
+  color: #fff;
+  /* padding: 5px; */
+}
