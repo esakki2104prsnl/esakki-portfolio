@@ -175,14 +175,17 @@ i.fa-instagram:hover {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-weight: 650;
+  font-weight: 700;
 }
-
+div.btn {
+  margin: 10px;
+}
 .btn.btn__hm {
   padding: 10px 15px;
   border-radius: 5px;
   background: var(--primary-e-blue-btn);
   color: #fff;
+  border: 2px solid #fff;
 }
 
 .btn.btn__hm:hover {
@@ -193,15 +196,15 @@ i.fa-instagram:hover {
 .btn.btn__km {
   padding: 10px 15px;
   border-radius: 5px;
-  border: 2px solid var(--primary-e-blue);
-  color: var(--primary-e-blue);
+  border: 2px solid var(--priamry-font);
+  color: var(--priamry-font);
 }
 
 .btn.btn__km:hover {
   cursor: pointer;
-  background-color: var(--primary-e-blue);
-  color: var(--primary-green);
-  border: 2px solid;
+  background-color: #ffff;
+  color: #000;
+  border: 2px solid #000;
   opacity: 1;
 }
 
@@ -233,8 +236,15 @@ div.skill ol li img {
   background: var(--priamry-font);
   box-shadow: 1px 1px 15px 1px #000;
   object-fit: contain;
+  border-radius: 15px;
   width: 120px;
   height: 120px;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+div.skill ol li img:hover {
+  transform: scale(1.2);
 }
 
 /* Center Hero */
@@ -291,26 +301,54 @@ div.center-hero__exp > ul li a:hover {
 
 div.contact {
   background: var(--primary-e-blue);
+  /* text-align: center; */
 }
-div.contact h2,
-label {
+
+div.contact h2 {
+  color: #fff;
+}
+
+.contact form {
+  padding: 20px;
+  font-size: 18px;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.contact form > label,
+textarea {
+  color: #fff;
+  display: block;
+  padding: 10px;
+  /* margin-left: 400px; */
+}
+
+.contact > form > input {
+  width: 300px;
+  padding: 5px;
+  margin: 10px;
+  /* align-items: baseline; */
+  /* text-align: center; */
+}
+
+.contact > form > label > textarea {
+  display: inline;
+  width: 400px;
+  /* align-items: center; */
+}
+
+/* copyrights */
+.copyrights {
+  background-color: #171717ce;
   color: #fff;
   text-align: center;
 }
 
-form {
-  width: 100%;
-  align-items: center;
-  padding: 5px;
-}
-
-form > div > input {
-  padding: 3px;
-  width: 20%;
-  align-items: center;
-}
-
-form.contatct h2 {
+.copyrights a {
+  text-decoration: none;
   color: #fff;
-  /* padding: 5px; */
+}
+
+.copyrights a:hover {
+  color: var(--priamry-font);
 }

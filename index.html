@@ -30,10 +30,10 @@
                     <a href="#">Home</a>
                 </li>
                 <li>
-                    <a href="#">About</a>
+                    <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
                 </li>
                 <li>
                     <a href="#">Info</a>
@@ -85,7 +85,7 @@
 
                 </div>
 
-                <div>
+                <div class="btn">
                     <button class="btn btn__hm">Hire Me</button>
                     <button class="btn btn__km">Know Me</button>
                 </div>
@@ -97,34 +97,34 @@
             </div>
         </section>
 
-        <div>
+        <div id="about">
             <h1>Technology Knowledge </h1>
         </div>
         <div class="skill">
             <ol>
                 <li>
-                    <img src="./asset/img/html.png" alt="">
+                    <img src="./asset/img/html.png" alt="html">
                 </li>
                 <li>
-                    <img src="./asset/img/css.png" alt="">
+                    <img src="./asset/img/css.png" alt="css">
                 </li>
                 <li>
-                    <img src="./asset/img/bootstrap.png" alt="">
+                    <img src="./asset/img/bootstrap.png" alt="bootstrap">
                 </li>
                 <li>
-                    <img src="./asset/img/javascript.png" alt="">
+                    <img src="./asset/img/javascript.png" alt="javascript">
                 </li>
                 <li>
-                    <img src="./asset/img/canva.png" alt="">
+                    <img src="./asset/img/canva.png" alt="canva">
                 </li>
                 <li>
-                    <img src="./asset/img/react.png" alt="">
+                    <img src="./asset/img/react.png" alt="raect-js">
                 </li>
                 <li>
-                    <img src="./asset/img/pngimg.com - mysql_PNG9.png" alt="">
+                    <img src="./asset/img/pngimg.com - mysql_PNG9.png" alt="mysql">
                 </li>
                 <li>
-                    <img src="./asset/img/Mongodb-PNG-Image-HD.png" alt="">
+                    <img src="./asset/img/Mongodb-PNG-Image-HD.png" alt="mongo-db">
                 </li>
 
             </ol>
@@ -151,23 +151,28 @@
         </section>
 
     </main>
-    <footer>
 
-        <div class="contact">
-            <form action="get">
-                <h2>Contact Here</h2>
-                <div>
-                    <label for="name">Name</label>
-                    <input type="text" placeholder="name">
-                </div>
-                <div>
-                    <label for="email">Email</label>
-                    <input type="text" placeholder="mail-id">
-                </div>
+    <footer>
+        <div class="contact" id="contact">
+            <form>
+                <h2>Contact </h2>
+                <label>Name
+                    <input type="text" name="name" placeholder="Name">
+                </label>
+                <label> Mail-id
+                    <input type="text" name="mail-id" placeholder="Mail-id">
+                </label>
+                <label> Description
+                    <textarea name="description" placeholder="description"></textarea>
+                </label>
             </form>
+        </div>
+        <div class="copyrights">
+            COPYRIGHTS Recerved &copy 2023 <a href="https://github.com/esakki2104prsnl" target="_blank">Esakki.M</a> All
+            Rights Reserved.
         </div>
     </footer>
 
 </body>
 
-</html>
+</html>`
