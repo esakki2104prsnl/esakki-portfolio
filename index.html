@@ -153,20 +153,28 @@
     </main>
 
     <footer>
-        <div class="contact" id="contact">
-            <form>
+        <div class="contact">
+            <form id="contact">
                 <h2>Contact </h2>
-                <label>Name
-                    <input type="text" name="name" placeholder="Name">
-                </label>
-                <label> Mail-id
-                    <input type="text" name="mail-id" placeholder="Mail-id">
-                </label>
-                <label> Description
-                    <textarea name="description" placeholder="description"></textarea>
-                </label>
+                <div>
+                    <label>Name
+                        <input type="text" name="name" placeholder="Name">
+                    </label>
+                </div>
+                <div>
+                    <label> Mail-id
+                        <input type="email" name="email" placeholder="Mail-id">
+                    </label>
+                </div>
+                <div>
+                    <label> Message
+                        <textarea name="message" rows="3" placeholder="Write your Enquiry"></textarea>
+                    </label>
+                </div>
+                <button class="btn btn__km" onclick="alert('Thank you for your message!')">Message Me</button>
             </form>
         </div>
+
         <div class="copyrights">
             COPYRIGHTS Recerved &copy 2023 <a href="https://github.com/esakki2104prsnl" target="_blank">Esakki.M</a> All
             Rights Reserved.

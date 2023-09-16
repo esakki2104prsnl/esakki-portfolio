@@ -98,6 +98,7 @@ header button:hover {
   font-weight: 900;
   padding: 5px;
 }
+
 .my-name__title:hover {
   color: #fff;
   cursor: pointer;
@@ -178,19 +179,22 @@ i.fa-instagram:hover {
   font-weight: 700;
 }
 div.btn {
-  margin: 10px;
+  /* margin: 50px; */
+  /* width: 400px; */
+  /* : 40px; */
 }
 .btn.btn__hm {
   padding: 10px 15px;
   border-radius: 5px;
-  background: var(--primary-e-blue-btn);
-  color: #fff;
+  background: #fff;
+  color: #000000;
   border: 2px solid #fff;
 }
 
 .btn.btn__hm:hover {
-  color: var(--primary-e-blue-btn);
-  background-color: #fff;
+  color: #fff;
+  background-color: #000;
+  border: 2px solid var(--priamry-font);
 }
 
 .btn.btn__km {
@@ -203,8 +207,8 @@ div.btn {
 .btn.btn__km:hover {
   cursor: pointer;
   background-color: #ffff;
-  color: #000;
-  border: 2px solid #000;
+  color: #000000;
+  border: 2px solid #ffffff;
   opacity: 1;
 }
 
@@ -315,26 +319,28 @@ div.contact h2 {
   align-items: center;
   width: 100%;
 }
-.contact form > label,
+.contact form > div > label,
 textarea {
   color: #fff;
   display: block;
-  padding: 10px;
   /* margin-left: 400px; */
 }
 
-.contact > form > input {
-  width: 300px;
-  padding: 5px;
+.contact form > div input,
+textarea {
+  padding: 10px;
+  width: 380px;
   margin: 10px;
+  outline: none;
+  /* border: none; */
+  border-radius: 4px;
+  color: #000;
   /* align-items: baseline; */
   /* text-align: center; */
 }
 
-.contact > form > label > textarea {
+.contact > form > div label > textarea {
   display: inline;
-  width: 400px;
-  /* align-items: center; */
 }
 
 /* copyrights */
@@ -352,3 +358,5 @@ textarea {
 .copyrights a:hover {
   color: var(--priamry-font);
 }
+
+/* Media Query */
