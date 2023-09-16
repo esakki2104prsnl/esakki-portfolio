@@ -111,7 +111,7 @@ section.hero-main {
   color: var(--priamry-font);
   display: flex;
   justify-content: space-around;
-  gap: 40px;
+
   align-items: center;
   padding: 20px 140px 0 140px;
 }
