@@ -1,0 +1,33 @@
+@media only screen and (max-width: 600px) {
+  html {
+    color: var(--primary-green);
+    font-family: "Geologica", sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+  }
+  /* header section */
+  header {
+    /* background: red; */
+    padding: 5px;
+    flex-direction: column;
+  }
+
+  header > * {
+    margin-bottom: 5px;
+  }
+
+  /* Main */
+  /* hero-main */
+  section.hero-main {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  /* Img */
+  section.hero-main__img {
+  }
+
+  div.center-hero__exp {
+    padding-left: 10px;
+  }
+}
