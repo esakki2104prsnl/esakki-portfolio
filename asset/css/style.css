@@ -178,11 +178,7 @@ i.fa-instagram:hover {
   cursor: pointer;
   font-weight: 700;
 }
-div.btn {
-  /* margin: 50px; */
-  /* width: 400px; */
-  /* : 40px; */
-}
+
 .btn.btn__hm {
   padding: 10px 15px;
   border-radius: 5px;
