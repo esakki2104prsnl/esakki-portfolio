@@ -16,6 +16,16 @@
     margin-bottom: 5px;
   }
 
+  ul {
+    /* flex-direction: column; */
+    /* display: block; */
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  div.btn {
+    margin: auto 100px;
+  }
   /* Main */
   /* hero-main */
   section.hero-main {
@@ -27,7 +37,7 @@
   section.hero-main__img {
   }
 
-  div.center-hero__exp {
-    padding-left: 10px;
+  div.center-hero__img {
+    flex-direction: column;
   }
 }

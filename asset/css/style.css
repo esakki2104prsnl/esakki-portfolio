@@ -280,6 +280,7 @@ section.center-hero h1 {
 }
 
 div.center-hero__exp > ul li {
+  width: 360px;
   list-style: none;
   background: #ff0000;
   padding: 10px;
