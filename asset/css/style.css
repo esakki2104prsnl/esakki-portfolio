@@ -333,12 +333,19 @@ textarea {
   /* border: none; */
   border-radius: 4px;
   color: #000;
-  /* align-items: baseline; */
-  /* text-align: center; */
 }
 
 .contact > form > div label > textarea {
   display: inline;
+}
+
+div.contact-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.contact-flex label {
+  align-content: center;
 }
 
 /* copyrights */
