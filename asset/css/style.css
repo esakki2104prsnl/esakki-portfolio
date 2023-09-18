@@ -43,13 +43,14 @@ header div span > a {
 }
 
 header div span a:hover {
-  color: #fff;
+  color: #ff0000;
 }
 
 header ul {
   display: flex;
   justify-content: space-evenly;
   padding: 5px;
+  gap: 30px;
 }
 
 ul > li {
@@ -64,6 +65,8 @@ header div > ul > li > a {
 
 header div > ul > li > a:hover {
   color: #fff;
+  background: #000;
+  border-radius: 20px;
 }
 
 header > div > ul > li > a {
@@ -71,7 +74,7 @@ header > div > ul > li > a {
 }
 
 header a {
-  padding: 20px;
+  padding: 10px;
 }
 
 /* Header Button */
