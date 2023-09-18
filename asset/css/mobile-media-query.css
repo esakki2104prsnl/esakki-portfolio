@@ -60,6 +60,10 @@
   div.center-hero__exp {
     padding-left: 5px;
   }
+  ol,
+  ul {
+    padding-left: 0;
+  }
 
   .skill {
     /* justify-content: center; */
