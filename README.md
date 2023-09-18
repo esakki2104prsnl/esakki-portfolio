@@ -1,4 +1,4 @@
-# My Portfolio Website
+# Esakki Portfolio Website
 
 Welcome to my portfolio website! This website serves as a showcase of my work, skills, and projects. You can view it live at [MyPortfolioURL.com](https://esakki2104prsnl.github.io/esakki-portfolio/).
 
